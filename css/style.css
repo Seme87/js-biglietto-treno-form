@@ -1,0 +1,71 @@
+/* reset */
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* reset */
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+main{
+    text-align: center;
+    background-color: #b91450;
+    padding: 20px;
+}
+
+.dati-utente{
+    width: 100%;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255) ;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.slot{
+    width: calc(100% / 3);
+    padding: 20px 0;
+}
+
+.biglietto{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.detail{
+   display: flex;
+   width: 100%; 
+   border-top: 1px solid;
+   border-bottom: 1px solid;
+}
+
+.nome-pass{
+    background-color: #808080;
+    padding: 10px;
+    width: 30%;
+}
+
+.offerta{
+    padding: 10px;
+    width: 20%;
+}
+
+.carrozza, .codice{
+    padding: 10px;
+    width: 15%;
+}
+
+.costo{
+    padding: 10px;
+    width: 20%;
+}
