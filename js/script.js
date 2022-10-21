@@ -1,4 +1,10 @@
 // NOME E COGNOME UTENTE
-document.getElementById("name").value = "Massimo Monteleone";
+const name = document.getElementById("name").value = "Massimo Monteleone";
 // KM PERCORSI
-document.getElementById("Km").value = "100";
+document.getElementById("km").value = "100";
+
+
+const btnGenerator= document.getElementById("btn-geneator");
+btnGenerator.addEventListener('click, ' function{
+    document.getElementById("name-surname").innerHTML= "name";
+})
